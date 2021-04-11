@@ -1,10 +1,11 @@
+import os
 from flask import Flask, request
 import pandas as pd
 import pickle
 
-from wine_quality import WineQuality
+from wine_quality.WineQuality import WineQuality
 
-model = pickle.load(open("model_wine_quality.pkl", 'rb'))
+model = pickle.load(open("model/model_wine_quality.pkl", 'rb'))
 
 app = Flask(__name__)
 
@@ -28,4 +29,5 @@ def predict():
     return df1.to_json(orient='records')
 
 if __name__ == '__main__':
-    app.run(host='192.168.1.105', port='5000')
+    port = os.environ.get('PORT', 5000)
+    app.run(host='0.0.0.0', port=port)
