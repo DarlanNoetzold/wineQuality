@@ -61,7 +61,6 @@ sqlparse==0.4.1
 statsmodels==0.12.2
 threadpoolctl==2.1.0
 toml==0.10.2
-torch==1.8.0
 tornado==6.1
 traitlets==5.0.5
 typing-extensions==3.7.4.3
