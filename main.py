@@ -58,11 +58,12 @@ pickle.dump(model, open('model_wine_quality.pkl', 'wb'))
 df = df_raw.drop('quality', axis=1).sample()
 df_json = df.to_json(orient='records')
 
-url = 'http://192.168.1.105:5000/predict'
+url = 'https://wine-quality-model.herokuapp.com/predict'
 data = df_json
 header = {'Content-type': 'application/json'}
 
 r = requests.post(url=url, data=data, headers=header)
 
+print(r)
 print(r.json())
 
