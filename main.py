@@ -37,19 +37,19 @@ y_test = test['quality']
 model = ElasticNet( alpha=0.5, l1_ratio=0.5, random_state=42 )
 
 # training
-model.fit( x_train, y_train )
+model.fit(x_train, y_train)
 
 # prediction
-pred = model.predict( x_test )
+pred = model.predict(x_test)
 
-rmse = np.sqrt( mean_squared_error( y_test, pred ))
-mae = mean_absolute_error( y_test, pred )
-r2  = r2_score( y_test, pred )
+rmse = np.sqrt(mean_squared_error(y_test, pred))
+mae = mean_absolute_error(y_test, pred)
+r2 = r2_score(y_test, pred)
 
 
-print( 'RMSE: {}'.format( rmse ) )
-print( 'MAE: {}'.format( mae ) )
-print( 'R2: {}'.format( r2 ))
+print('RMSE: {}'.format(rmse))
+print('MAE: {}'.format(mae))
+print('R2: {}'.format(r2))
 
 
 # save trained model
