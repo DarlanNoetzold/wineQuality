@@ -5,5 +5,9 @@
 
 ## Projeto
 * Projeto de uma API com um modelo de predição de qualidade de vinhos. A API devolve os resultados da predição. 
+* Foi feita manipulçao e adaptação de alguns dados para o melhor uso dos memos.
+
+Link da API:
+https://wine-quality-model.herokuapp.com/predict
 
 
