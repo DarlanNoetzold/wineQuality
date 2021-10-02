@@ -16,3 +16,5 @@ Link da API:
 * https://wine-quality-model.herokuapp.com/predict
 
 ---
+
+⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
