@@ -1,18 +1,18 @@
 # wineQuality
-## Desenvolvimento
-* Foi usado Python 3.9.
-* E as bibliotecas Pandas, Sklearn, Numpy, Flask e Pickle.
+## Development
+* Python 3.9 was used.
+* And the libraries Pandas, Sklearn, Numpy, Flask and Pickle.
 
-## Projeto
-* Projeto de uma API com um modelo de predição de qualidade de vinhos. A API devolve os resultados da predição. 
-* Foi feita manipulçao e adaptação de alguns dados para o melhor uso dos memos.
+## Project
+* Design of an API with a wine quality prediction model. The API returns the prediction results.
+* Some data was manipulated and adapted to make better use of the models.
 
 ---
 
-### Dados de Entrada:
-* Formato: "fixed acidity", "volatile acidity", "citric acid";"residual sugar";"chlorides";"free sulfur dioxide";"total sulfur dioxide";"density";"pH";"sulphates";"alcohol"
+### Input Data:
+* Format: "fixed acidity", "volatile acidity", "citric acid";"residual sugar";"chlorides";"free sulfur dioxide";"total sulfur dioxide";"density";"pH";"sulphates";"alcohol"
 
-Link da API:
+API Link:
 * https://wine-quality-model.herokuapp.com/predict
 
 ---
